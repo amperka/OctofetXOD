@@ -1,0 +1,314 @@
+{
+  "description": "The quick start node that represents the Amperka Octofet board, which sets the state (\"on\" or \"off\") of 8 power switches, also known as channels.",
+  "links": [
+    {
+      "id": "B14LUqJvU",
+      "input": {
+        "nodeId": "BkXrU5JDL",
+        "pinKey": "HJvyU5kwU"
+      },
+      "output": {
+        "nodeId": "ByLYNLqkvL",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "B1J2Hqkw8",
+      "input": {
+        "nodeId": "H1piSq1wL",
+        "pinKey": "HyCSE9kDU"
+      },
+      "output": {
+        "nodeId": "SklForqyD8",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "B1b8U5yDI",
+      "input": {
+        "nodeId": "BkXrU5JDL",
+        "pinKey": "ryxS1Uc1PI"
+      },
+      "output": {
+        "nodeId": "Hk7KVL5JDL",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "BJABLc1DI",
+      "input": {
+        "nodeId": "BkXrU5JDL",
+        "pinKey": "HyVk891DI"
+      },
+      "output": {
+        "nodeId": "SJxF4U9yDU",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "H1pH8ckwL",
+      "input": {
+        "nodeId": "BkXrU5JDL",
+        "pinKey": "Hyx18ckD8"
+      },
+      "output": {
+        "nodeId": "HJKNIcJDU",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "H1y8Iqkv8",
+      "input": {
+        "nodeId": "BkXrU5JDL",
+        "pinKey": "B1gV1LqJvU"
+      },
+      "output": {
+        "nodeId": "BkbYVIcJPU",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HkmLLckPU",
+      "input": {
+        "nodeId": "BkXrU5JDL",
+        "pinKey": "B1lIJI9kD8"
+      },
+      "output": {
+        "nodeId": "B1HYNU5kPU",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HyuL8cyP8",
+      "input": {
+        "nodeId": "BkXrU5JDL",
+        "pinKey": "rJkW89kD8"
+      },
+      "output": {
+        "nodeId": "H1wF4U9kP8",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "S1HSL5kDI",
+      "input": {
+        "nodeId": "BkutN85kPL",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "BkXrU5JDL",
+        "pinKey": "B1T-IcyvU"
+      }
+    },
+    {
+      "id": "SJMIIq1PU",
+      "input": {
+        "nodeId": "BkXrU5JDL",
+        "pinKey": "ByIk8qkwU"
+      },
+      "output": {
+        "nodeId": "SJ4tNUc1DL",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SyCsS5Jw8",
+      "input": {
+        "nodeId": "H1piSq1wL",
+        "pinKey": "Bk3HE9ywL"
+      },
+      "output": {
+        "nodeId": "SktiBckvL",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "r1lL89JPU",
+      "input": {
+        "nodeId": "BkXrU5JDL",
+        "pinKey": "B1ByIckDI"
+      },
+      "output": {
+        "nodeId": "ryGK4851PI",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "r1oS85ywI",
+      "input": {
+        "nodeId": "BkXrU5JDL",
+        "pinKey": "Byh6HqyDI"
+      },
+      "output": {
+        "nodeId": "H1piSq1wL",
+        "pinKey": "HkwwE5JwU"
+      }
+    },
+    {
+      "id": "rke3H9yPL",
+      "input": {
+        "nodeId": "H1piSq1wL",
+        "pinKey": "B1g0H4qkPI"
+      },
+      "output": {
+        "nodeId": "SkZtiB5kD8",
+        "pinKey": "__out__"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "B1HYNU5kPU",
+      "label": "CH6",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "BkXrU5JDL",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 2
+      },
+      "type": "@/write"
+    },
+    {
+      "id": "BkbYVIcJPU",
+      "label": "CH2",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "description": "Fires on writing complete.",
+      "id": "BkutN85kPL",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "ByLYNLqkvL",
+      "label": "CH7",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "H1piSq1wL",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "@/octofet-device"
+    },
+    {
+      "description": "Triggers new write",
+      "id": "H1wF4U9kP8",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 16,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "HJKNIcJDU",
+      "label": "CH0",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "Hk7KVL5JDL",
+      "label": "CH4",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "SJ4tNUc1DL",
+      "label": "CH5",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "SJxF4U9yDU",
+      "label": "CH1",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "description": "The clock pin used to clock pulses which synchronize data transmission generated by the master. It is marked П on the Octofet board. Any GPIO pin of the controller may be used.",
+      "id": "SkZtiB5kD8",
+      "label": "SCK",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "description": "The MOSI (Master Out Slave In) pin used to send data to the peripherals. It is marked DI on the Octofet board. Any GPIO pin of the controller may be used.",
+      "id": "SklForqyD8",
+      "label": "MOSI",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "description": "The chip select (also known as slave select) pin used to control the shift-register latch. It is marked CS on the Octofet board. Any GPIO pin of the controller may be used.",
+      "id": "SktiBckvL",
+      "label": "CS",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "id": "ryGK4851PI",
+      "label": "CH3",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    }
+  ]
+}

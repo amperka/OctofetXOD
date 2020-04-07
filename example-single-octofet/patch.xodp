@@ -1,0 +1,225 @@
+{
+  "description": "Example of Octofet to sets the state off all power switches on single board Octofet.",
+  "links": [
+    {
+      "id": "B169LoFvI",
+      "input": {
+        "nodeId": "S10DIiFwU",
+        "pinKey": "H1wF4U9kP8"
+      },
+      "output": {
+        "nodeId": "BkQSlmKDU",
+        "pinKey": "ryVmUAOrvkb"
+      }
+    },
+    {
+      "id": "BJfjIiYvU",
+      "input": {
+        "nodeId": "S10DIiFwU",
+        "pinKey": "BkbYVIcJPU"
+      },
+      "output": {
+        "nodeId": "rkN8qztvI",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "BJroUotv8",
+      "input": {
+        "nodeId": "S10DIiFwU",
+        "pinKey": "SJ4tNUc1DL"
+      },
+      "output": {
+        "nodeId": "ry0vlbYwI",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "H1VoUsFDI",
+      "input": {
+        "nodeId": "S10DIiFwU",
+        "pinKey": "Hk7KVL5JDL"
+      },
+      "output": {
+        "nodeId": "ByYI9zKDI",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "Hy7oLsYv8",
+      "input": {
+        "nodeId": "S10DIiFwU",
+        "pinKey": "ryGK4851PI"
+      },
+      "output": {
+        "nodeId": "ByL89MKvU",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "SJWiLoYw8",
+      "input": {
+        "nodeId": "S10DIiFwU",
+        "pinKey": "SJxF4U9yDU"
+      },
+      "output": {
+        "nodeId": "r1DDl-tvU",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "SkLj8stwL",
+      "input": {
+        "nodeId": "S10DIiFwU",
+        "pinKey": "B1HYNU5kPU"
+      },
+      "output": {
+        "nodeId": "r1jU5fKDI",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "Skej8iKDL",
+      "input": {
+        "nodeId": "S10DIiFwU",
+        "pinKey": "HJKNIcJDU"
+      },
+      "output": {
+        "nodeId": "BkurqfKDU",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "r1vjUiYw8",
+      "input": {
+        "nodeId": "S10DIiFwU",
+        "pinKey": "ByLYNLqkvL"
+      },
+      "output": {
+        "nodeId": "By7d5GYwU",
+        "pinKey": "Sk1e_NIVE"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "BkQSlmKDU",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": -5
+      },
+      "type": "xod/core/boot"
+    },
+    {
+      "boundLiterals": {
+        "Sk1e_NIVE": "False"
+      },
+      "id": "BkurqfKDU",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": -5
+      },
+      "type": "xod/debug/tweak-boolean"
+    },
+    {
+      "boundLiterals": {
+        "Sk1e_NIVE": "False"
+      },
+      "id": "By7d5GYwU",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": -5
+      },
+      "type": "xod/debug/tweak-boolean"
+    },
+    {
+      "boundLiterals": {
+        "Sk1e_NIVE": "False"
+      },
+      "id": "ByL89MKvU",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": -5
+      },
+      "type": "xod/debug/tweak-boolean"
+    },
+    {
+      "boundLiterals": {
+        "Sk1e_NIVE": "False"
+      },
+      "id": "ByYI9zKDI",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": -5
+      },
+      "type": "xod/debug/tweak-boolean"
+    },
+    {
+      "boundLiterals": {
+        "SkZtiB5kD8": "D13",
+        "SklForqyD8": "D11",
+        "SktiBckvL": "D10"
+      },
+      "id": "S10DIiFwU",
+      "position": {
+        "units": "slots",
+        "x": -2,
+        "y": -4
+      },
+      "type": "@/octofet"
+    },
+    {
+      "boundLiterals": {
+        "Sk1e_NIVE": "False"
+      },
+      "id": "r1DDl-tvU",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": -5
+      },
+      "type": "xod/debug/tweak-boolean"
+    },
+    {
+      "boundLiterals": {
+        "Sk1e_NIVE": "False"
+      },
+      "id": "r1jU5fKDI",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": -5
+      },
+      "type": "xod/debug/tweak-boolean"
+    },
+    {
+      "boundLiterals": {
+        "Sk1e_NIVE": "False"
+      },
+      "id": "rkN8qztvI",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": -5
+      },
+      "type": "xod/debug/tweak-boolean"
+    },
+    {
+      "boundLiterals": {
+        "Sk1e_NIVE": "False"
+      },
+      "id": "ry0vlbYwI",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": -5
+      },
+      "type": "xod/debug/tweak-boolean"
+    }
+  ]
+}
