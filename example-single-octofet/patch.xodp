@@ -1,5 +1,5 @@
 {
-  "description": "Example of Octofet to sets the state off all power switches on single board Octofet.",
+  "description": "Example of Octofet board to sets the state off all power switches on single Octofet.",
   "links": [
     {
       "id": "B169LoFvI",

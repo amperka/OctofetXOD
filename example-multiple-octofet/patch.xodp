@@ -1,5 +1,5 @@
 {
-  "description": "Example of Octofet to sets the state off all power switches on multiple board Octofet, which connected in a daisy-chain.",
+  "description": "Example of Amperka Octofet board to sets the state off all power switches on multiple Octofet, which connected in a daisy-chain.",
   "links": [
     {
       "id": "B13oG7YvI",
