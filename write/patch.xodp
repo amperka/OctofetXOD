@@ -1,5 +1,161 @@
 {
   "description": "Sets the state (\"on\" or \"off\") of 8 power switches the Octofet board.",
+  "links": [
+    {
+      "id": "BJAng2sPU",
+      "input": {
+        "nodeId": "B1T-IcyvU",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "HyoFlnswL",
+        "pinKey": "BJeAFkniwU"
+      }
+    },
+    {
+      "id": "BJwil3oDL",
+      "input": {
+        "nodeId": "Skr5g2ivI",
+        "pinKey": "H1yb_Liw8"
+      },
+      "output": {
+        "nodeId": "ryxS1Uc1PI",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Hkeix3jvI",
+      "input": {
+        "nodeId": "Skr5g2ivI",
+        "pinKey": "BkUG_UjPL"
+      },
+      "output": {
+        "nodeId": "Hyx18ckD8",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HyDIb3jwL",
+      "input": {
+        "nodeId": "HyoFlnswL",
+        "pinKey": "HJN0K13jPU"
+      },
+      "output": {
+        "nodeId": "ryPr-njw8",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SJNixnjPI",
+      "input": {
+        "nodeId": "Skr5g2ivI",
+        "pinKey": "r1agdUsP8"
+      },
+      "output": {
+        "nodeId": "B1gV1LqJvU",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SkQ8W3jvU",
+      "input": {
+        "nodeId": "ryPr-njw8",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "Byh6HqyDI",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SyfoxhoPU",
+      "input": {
+        "nodeId": "Skr5g2ivI",
+        "pinKey": "Sy3l_8iPU"
+      },
+      "output": {
+        "nodeId": "HyVk891DI",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SyjslnjvI",
+      "input": {
+        "nodeId": "Skr5g2ivI",
+        "pinKey": "S1YxdUovU"
+      },
+      "output": {
+        "nodeId": "B1lIJI9kD8",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "r1b3xhjDL",
+      "input": {
+        "nodeId": "HyoFlnswL",
+        "pinKey": "SyW2yhovI"
+      },
+      "output": {
+        "nodeId": "Skr5g2ivI",
+        "pinKey": "HklS_IoP8"
+      }
+    },
+    {
+      "id": "rJcXW2owU",
+      "input": {
+        "nodeId": "HJLyZ3oPI",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "rJkW89kD8",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "rkBsg2sv8",
+      "input": {
+        "nodeId": "Skr5g2ivI",
+        "pinKey": "B1Cg_Ujw8"
+      },
+      "output": {
+        "nodeId": "B1ByIckDI",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "rkpsxhiDU",
+      "input": {
+        "nodeId": "Skr5g2ivI",
+        "pinKey": "S1glZO8jPI"
+      },
+      "output": {
+        "nodeId": "HJvyU5kwU",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "ry67ZniD8",
+      "input": {
+        "nodeId": "HyoFlnswL",
+        "pinKey": "rkK0t1hjvU"
+      },
+      "output": {
+        "nodeId": "HJLyZ3oPI",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "rytix2jPI",
+      "input": {
+        "nodeId": "Skr5g2ivI",
+        "pinKey": "r1gbOIiwL"
+      },
+      "output": {
+        "nodeId": "ByIk8qkwU",
+        "pinKey": "__out__"
+      }
+    }
+  ],
   "nodes": [
     {
       "id": "B1ByIckDI",
@@ -17,8 +173,8 @@
       "label": "DONE",
       "position": {
         "units": "slots",
-        "x": 1,
-        "y": 2
+        "x": 5,
+        "y": 6
       },
       "type": "xod/patch-nodes/output-pulse"
     },
@@ -37,7 +193,7 @@
       "label": "CH6",
       "position": {
         "units": "slots",
-        "x": 10,
+        "x": 9,
         "y": 0
       },
       "type": "xod/patch-nodes/input-boolean"
@@ -47,7 +203,7 @@
       "label": "CH5",
       "position": {
         "units": "slots",
-        "x": 9,
+        "x": 8,
         "y": 0
       },
       "type": "xod/patch-nodes/input-boolean"
@@ -63,14 +219,32 @@
       "type": "@/input-octofet-device"
     },
     {
+      "id": "HJLyZ3oPI",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/jumper"
+    },
+    {
       "id": "HJvyU5kwU",
       "label": "CH7",
       "position": {
         "units": "slots",
-        "x": 11,
+        "x": 10,
         "y": 0
       },
       "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "Hkc9dLnD8",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 2
+      },
+      "type": "xod/bits/dec-to-bcd"
     },
     {
       "id": "HyVk891DI",
@@ -83,6 +257,15 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
+      "id": "HyoFlnswL",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 4
+      },
+      "type": "@/write-byte"
+    },
+    {
       "id": "Hyx18ckD8",
       "label": "CH0",
       "position": {
@@ -93,18 +276,18 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
-      "id": "rJGQ8ckDU",
+      "id": "Skr5g2ivI",
       "position": {
         "units": "slots",
-        "x": 1,
+        "x": 3,
         "y": 1
       },
-      "type": "xod/patch-nodes/not-implemented-in-xod"
+      "type": "@/pack-bools-to-byte"
     },
     {
-      "description": "Triggers new write",
+      "description": "Triggers a new write.",
       "id": "rJkW89kD8",
-      "label": "UPD",
+      "label": "DO",
       "position": {
         "units": "slots",
         "x": 13,
@@ -113,11 +296,20 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "id": "ryPr-njw8",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/jumper"
+    },
+    {
       "id": "ryxS1Uc1PI",
       "label": "CH4",
       "position": {
         "units": "slots",
-        "x": 8,
+        "x": 7,
         "y": 0
       },
       "type": "xod/patch-nodes/input-boolean"

@@ -1,87 +1,10 @@
 {
-  "description": "Example of Octofet board to sets the state off all power switches on single Octofet.",
+  "description": "Example of Amperka Octofet board to sets the state off 8 power switches on single Octofet device.",
   "links": [
     {
-      "id": "B169LoFvI",
+      "id": "BJxRWAswL",
       "input": {
-        "nodeId": "S10DIiFwU",
-        "pinKey": "H1wF4U9kP8"
-      },
-      "output": {
-        "nodeId": "BkQSlmKDU",
-        "pinKey": "ryVmUAOrvkb"
-      }
-    },
-    {
-      "id": "BJfjIiYvU",
-      "input": {
-        "nodeId": "S10DIiFwU",
-        "pinKey": "BkbYVIcJPU"
-      },
-      "output": {
-        "nodeId": "rkN8qztvI",
-        "pinKey": "Sk1e_NIVE"
-      }
-    },
-    {
-      "id": "BJroUotv8",
-      "input": {
-        "nodeId": "S10DIiFwU",
-        "pinKey": "SJ4tNUc1DL"
-      },
-      "output": {
-        "nodeId": "ry0vlbYwI",
-        "pinKey": "Sk1e_NIVE"
-      }
-    },
-    {
-      "id": "H1VoUsFDI",
-      "input": {
-        "nodeId": "S10DIiFwU",
-        "pinKey": "Hk7KVL5JDL"
-      },
-      "output": {
-        "nodeId": "ByYI9zKDI",
-        "pinKey": "Sk1e_NIVE"
-      }
-    },
-    {
-      "id": "Hy7oLsYv8",
-      "input": {
-        "nodeId": "S10DIiFwU",
-        "pinKey": "ryGK4851PI"
-      },
-      "output": {
-        "nodeId": "ByL89MKvU",
-        "pinKey": "Sk1e_NIVE"
-      }
-    },
-    {
-      "id": "SJWiLoYw8",
-      "input": {
-        "nodeId": "S10DIiFwU",
-        "pinKey": "SJxF4U9yDU"
-      },
-      "output": {
-        "nodeId": "r1DDl-tvU",
-        "pinKey": "Sk1e_NIVE"
-      }
-    },
-    {
-      "id": "SkLj8stwL",
-      "input": {
-        "nodeId": "S10DIiFwU",
-        "pinKey": "B1HYNU5kPU"
-      },
-      "output": {
-        "nodeId": "r1jU5fKDI",
-        "pinKey": "Sk1e_NIVE"
-      }
-    },
-    {
-      "id": "Skej8iKDL",
-      "input": {
-        "nodeId": "S10DIiFwU",
+        "nodeId": "H1xObRjwL",
         "pinKey": "HJKNIcJDU"
       },
       "output": {
@@ -90,9 +13,75 @@
       }
     },
     {
-      "id": "r1vjUiYw8",
+      "id": "Byz0-0ov8",
       "input": {
-        "nodeId": "S10DIiFwU",
+        "nodeId": "H1xObRjwL",
+        "pinKey": "BkbYVIcJPU"
+      },
+      "output": {
+        "nodeId": "rkN8qztvI",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "HyUR-0iPI",
+      "input": {
+        "nodeId": "H1xObRjwL",
+        "pinKey": "SJ4tNUc1DL"
+      },
+      "output": {
+        "nodeId": "ry0vlbYwI",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "S1E0ZAovU",
+      "input": {
+        "nodeId": "H1xObRjwL",
+        "pinKey": "Hk7KVL5JDL"
+      },
+      "output": {
+        "nodeId": "ByYI9zKDI",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "SkD0WCjwI",
+      "input": {
+        "nodeId": "H1xObRjwL",
+        "pinKey": "B1HYNU5kPU"
+      },
+      "output": {
+        "nodeId": "r1jU5fKDI",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "Skm0ZCjwL",
+      "input": {
+        "nodeId": "H1xObRjwL",
+        "pinKey": "ryGK4851PI"
+      },
+      "output": {
+        "nodeId": "ByL89MKvU",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "r1WCWRowL",
+      "input": {
+        "nodeId": "H1xObRjwL",
+        "pinKey": "SJxF4U9yDU"
+      },
+      "output": {
+        "nodeId": "r1DDl-tvU",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "rJdAWCjDL",
+      "input": {
+        "nodeId": "H1xObRjwL",
         "pinKey": "ByLYNLqkvL"
       },
       "output": {
@@ -103,23 +92,14 @@
   ],
   "nodes": [
     {
-      "id": "BkQSlmKDU",
-      "position": {
-        "units": "slots",
-        "x": 9,
-        "y": -5
-      },
-      "type": "xod/core/boot"
-    },
-    {
       "boundLiterals": {
         "Sk1e_NIVE": "False"
       },
       "id": "BkurqfKDU",
       "position": {
         "units": "slots",
-        "x": 1,
-        "y": -5
+        "x": 0,
+        "y": -4
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -130,8 +110,8 @@
       "id": "By7d5GYwU",
       "position": {
         "units": "slots",
-        "x": 8,
-        "y": -5
+        "x": 7,
+        "y": -4
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -142,8 +122,8 @@
       "id": "ByL89MKvU",
       "position": {
         "units": "slots",
-        "x": 4,
-        "y": -5
+        "x": 3,
+        "y": -4
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -154,8 +134,8 @@
       "id": "ByYI9zKDI",
       "position": {
         "units": "slots",
-        "x": 5,
-        "y": -5
+        "x": 4,
+        "y": -4
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -165,11 +145,11 @@
         "SklForqyD8": "D11",
         "SktiBckvL": "D10"
       },
-      "id": "S10DIiFwU",
+      "id": "H1xObRjwL",
       "position": {
         "units": "slots",
-        "x": -2,
-        "y": -4
+        "x": -3,
+        "y": -3
       },
       "type": "@/octofet"
     },
@@ -180,8 +160,8 @@
       "id": "r1DDl-tvU",
       "position": {
         "units": "slots",
-        "x": 2,
-        "y": -5
+        "x": 1,
+        "y": -4
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -192,8 +172,8 @@
       "id": "r1jU5fKDI",
       "position": {
         "units": "slots",
-        "x": 7,
-        "y": -5
+        "x": 6,
+        "y": -4
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -204,8 +184,8 @@
       "id": "rkN8qztvI",
       "position": {
         "units": "slots",
-        "x": 3,
-        "y": -5
+        "x": 2,
+        "y": -4
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -216,8 +196,8 @@
       "id": "ry0vlbYwI",
       "position": {
         "units": "slots",
-        "x": 6,
-        "y": -5
+        "x": 5,
+        "y": -4
       },
       "type": "xod/debug/tweak-boolean"
     }

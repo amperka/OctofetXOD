@@ -1,0 +1,64 @@
+{
+  "nodes": [
+    {
+      "id": "BJ101nsvI",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/utility"
+    },
+    {
+      "description": "Fires on writing complete.",
+      "id": "BJeAFkniwU",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "HJN0K13jPU",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -1
+      },
+      "type": "@/input-octofet-device"
+    },
+    {
+      "id": "S1_CFknjwL",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "SyW2yhovI",
+      "label": "DATA",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "description": "Triggers a new write.",
+      "id": "rkK0t1hjvU",
+      "label": "DO",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    }
+  ]
+}

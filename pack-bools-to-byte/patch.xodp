@@ -1,0 +1,104 @@
+{
+  "description": "Packages 8 booleans into a byte HEX value in range [0, FF].",
+  "nodes": [
+    {
+      "id": "B1Cg_Ujw8",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "BkUG_UjPL",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "H1yb_Liw8",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "HklS_IoP8",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-byte"
+    },
+    {
+      "id": "S1YxdUovU",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "S1glZO8jPI",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "SJZQJ3jwI",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/utility"
+    },
+    {
+      "id": "Sy3l_8iPU",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "r1agdUsP8",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "r1gbOIiwL",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "ryH8OUiP8",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}

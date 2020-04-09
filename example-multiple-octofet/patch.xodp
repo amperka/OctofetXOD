@@ -1,5 +1,5 @@
 {
-  "description": "Example of Amperka Octofet board to sets the state off all power switches on multiple Octofet, which connected in a daisy-chain.",
+  "description": "Example of Amperka Octofet board to sets the state off all power switches on multiple Octofet devices connected in a daisy-chain.",
   "links": [
     {
       "id": "B13oG7YvI",
@@ -156,17 +156,6 @@
       }
     },
     {
-      "id": "Hkr77XFDU",
-      "input": {
-        "nodeId": "SJD0IqkwI",
-        "pinKey": "rJkW89kD8"
-      },
-      "output": {
-        "nodeId": "r1X7XXtDI",
-        "pinKey": "ryVmUAOrvkb"
-      }
-    },
-    {
       "id": "Hy3Tf7YPU",
       "input": {
         "nodeId": "SJD0IqkwI",
@@ -230,6 +219,17 @@
       "output": {
         "nodeId": "Hkv_G7FP8",
         "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "Sku4n8jDI",
+      "input": {
+        "nodeId": "SJD0IqkwI",
+        "pinKey": "rJkW89kD8"
+      },
+      "output": {
+        "nodeId": "Syd73UiwU",
+        "pinKey": "HJU8CE2lW"
       }
     },
     {
@@ -622,6 +622,15 @@
       "type": "xod/debug/tweak-boolean"
     },
     {
+      "id": "Syd73UiwU",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": -4
+      },
+      "type": "xod/core/clock"
+    },
+    {
       "boundLiterals": {
         "Sk1e_NIVE": "False"
       },
@@ -644,15 +653,6 @@
         "y": -2
       },
       "type": "xod/debug/tweak-boolean"
-    },
-    {
-      "id": "r1X7XXtDI",
-      "position": {
-        "units": "slots",
-        "x": 7,
-        "y": -2
-      },
-      "type": "xod/core/boot"
     },
     {
       "boundLiterals": {
