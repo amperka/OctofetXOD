@@ -1,4 +1,5 @@
 {
+  "description": "Sets the state (\"on\" or \"off\") of all 8 power switches at once on Octofet board.",
   "nodes": [
     {
       "id": "BJ101nsvI",
@@ -15,12 +16,13 @@
       "label": "DONE",
       "position": {
         "units": "slots",
-        "x": 0,
+        "x": 5,
         "y": 1
       },
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "The Octofet device",
       "id": "HJN0K13jPU",
       "label": "DEV",
       "position": {
@@ -40,6 +42,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "description": "HEX value for all of 8 power switches.",
       "id": "SyW2yhovI",
       "label": "DATA",
       "position": {
@@ -59,6 +62,17 @@
         "y": -1
       },
       "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "The Octofet device",
+      "id": "rkoYaT3P8",
+      "label": "DEV'",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "@/output-octofet-device"
     }
   ]
 }

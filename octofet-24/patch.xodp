@@ -1,5 +1,5 @@
 {
-  "description": "The quick start node that represents the three Octofet boards, \nwhich sets the state (\"on\" or \"off\") of all 24 power switches (a.k.a. «channels»).",
+  "description": "The quick start node that represents the three Octofet boards connected in a daisy-chain, which sets the state (\"on\" or \"off\") of all 24 power switches (a.k.a. «channels»).",
   "links": [
     {
       "id": "B19zBwQ0sDL",
@@ -90,14 +90,14 @@
       }
     },
     {
-      "id": "BJNQSwmRoDU",
+      "id": "BJ_W-f6DI",
       "input": {
-        "nodeId": "Hkl-SPQRoDU",
-        "pinKey": "__in__"
+        "nodeId": "H1likrCsDU",
+        "pinKey": "HJN0K13jPU"
       },
       "output": {
-        "nodeId": "rJ7rvmCjPL",
-        "pinKey": "HkwwE5JwU"
+        "nodeId": "SJ_xBDQAsD8",
+        "pinKey": "rkoYaT3P8"
       }
     },
     {
@@ -123,6 +123,17 @@
       }
     },
     {
+      "id": "By1-bMTw8",
+      "input": {
+        "nodeId": "SJ_xBDQAsD8",
+        "pinKey": "HJN0K13jPU"
+      },
+      "output": {
+        "nodeId": "SJRHwX0svU",
+        "pinKey": "rkoYaT3P8"
+      }
+    },
+    {
       "id": "ByOzHPmAsPL",
       "input": {
         "nodeId": "HJKxSDmAiwI",
@@ -145,17 +156,6 @@
       }
     },
     {
-      "id": "H1GmrPXAovL",
-      "input": {
-        "nodeId": "SJ_xBDQAsD8",
-        "pinKey": "HJN0K13jPU"
-      },
-      "output": {
-        "nodeId": "Sk0grwQAiD8",
-        "pinKey": "__out__"
-      }
-    },
-    {
       "id": "HJ4BERoP8",
       "input": {
         "nodeId": "SyceSvQCsPI",
@@ -163,17 +163,6 @@
       },
       "output": {
         "nodeId": "rkjBv7RoDU",
-        "pinKey": "__out__"
-      }
-    },
-    {
-      "id": "HJQ7SPXAsDU",
-      "input": {
-        "nodeId": "SJRHwX0svU",
-        "pinKey": "HJN0K13jPU"
-      },
-      "output": {
-        "nodeId": "BkyWSPmRivU",
         "pinKey": "__out__"
       }
     },
@@ -285,6 +274,17 @@
       "output": {
         "nodeId": "BJygSP70iD8",
         "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SJu1ZzpvI",
+      "input": {
+        "nodeId": "SJRHwX0svU",
+        "pinKey": "HJN0K13jPU"
+      },
+      "output": {
+        "nodeId": "rJ7rvmCjPL",
+        "pinKey": "HkwwE5JwU"
       }
     },
     {
@@ -431,17 +431,6 @@
       }
     },
     {
-      "id": "rkQjkrRsPL",
-      "input": {
-        "nodeId": "H1likrCsDU",
-        "pinKey": "HJN0K13jPU"
-      },
-      "output": {
-        "nodeId": "ryWoJS0ovI",
-        "pinKey": "__out__"
-      }
-    },
-    {
       "id": "rkTfSv7AowL",
       "input": {
         "nodeId": "HJKxSDmAiwI",
@@ -543,6 +532,7 @@
   ],
   "nodes": [
     {
+      "description": "The power switch channel 3 on second Octofet board.",
       "id": "B1LgBv7AjvI",
       "label": "CH11",
       "position": {
@@ -562,6 +552,7 @@
       "type": "@/pack-bools-to-byte"
     },
     {
+      "description": "The power switch channel 6 on second Octofet board.",
       "id": "BJygSP70iD8",
       "label": "CH14",
       "position": {
@@ -572,6 +563,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
+      "description": "The power switch channel 4 on third Octofet board.",
       "id": "BkSrvm0sD8",
       "label": "CH4",
       "position": {
@@ -582,16 +574,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
-      "id": "BkyWSPmRivU",
-      "label": "DEV",
-      "position": {
-        "units": "slots",
-        "x": 5,
-        "y": 4
-      },
-      "type": "xod/patch-nodes/from-bus"
-    },
-    {
+      "description": "The power switch channel 4 on first Octofet board.",
       "id": "H17zkERsP8",
       "label": "CH20",
       "position": {
@@ -626,11 +609,12 @@
       "position": {
         "units": "slots",
         "x": 0,
-        "y": 3.75
+        "y": 0
       },
       "type": "xod/patch-nodes/input-port"
     },
     {
+      "description": "The power switch channel 1 on second Octofet board.",
       "id": "HJHgrwQ0iP8",
       "label": "CH9",
       "position": {
@@ -644,12 +628,13 @@
       "id": "HJKxSDmAiwI",
       "position": {
         "units": "slots",
-        "x": 39,
-        "y": 6
+        "x": 40,
+        "y": 7
       },
       "type": "xod/core/gate"
     },
     {
+      "description": "The power switch channel 4 on second Octofet board.",
       "id": "HJXeSPQRivL",
       "label": "CH12",
       "position": {
@@ -660,6 +645,16 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
+      "id": "HJqGQGpwI",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 4
+      },
+      "type": "xod-dev/sharp-irm/gp2y0a41-range-meter"
+    },
+    {
+      "description": "The power switch channel 5 on first Octofet board.",
       "id": "Hk4zyVAsvI",
       "label": "CH21",
       "position": {
@@ -670,6 +665,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
+      "description": "The power switch channel 2 on third Octofet board.",
       "id": "HkeHD7RswL",
       "label": "CH2",
       "position": {
@@ -680,16 +676,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
-      "id": "Hkl-SPQRoDU",
-      "label": "DEV",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 6.488095238095238
-      },
-      "type": "xod/patch-nodes/to-bus"
-    },
-    {
+      "description": "The power switch channel 6 on third Octofet board.",
       "id": "HyHwmAiw8",
       "label": "CH6",
       "position": {
@@ -700,6 +687,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
+      "description": "The power switch channel 3 on first Octofet board.",
       "id": "HyIfyNCiwL",
       "label": "CH19",
       "position": {
@@ -710,6 +698,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
+      "description": "The power switch channel 0 on second Octofet board.",
       "id": "HyMxHPQRiPI",
       "label": "CH8",
       "position": {
@@ -729,6 +718,7 @@
       "type": "xod/core/pulse-on-change"
     },
     {
+      "description": "The power switch channel 2 on second Octofet board.",
       "id": "S1eeSDQRovI",
       "label": "CH10",
       "position": {
@@ -739,6 +729,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
+      "description": "The power switch channel 6 on first Octofet board.",
       "id": "S1zk4CjwU",
       "label": "CH22",
       "position": {
@@ -749,6 +740,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
+      "description": "The power switch channel 0 on first Octofet board.",
       "id": "SJGGJNRiPL",
       "label": "CH16",
       "position": {
@@ -759,6 +751,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
+      "description": "The power switch channel 1 on first Octofet board.",
       "id": "SJHM1NRivU",
       "label": "CH17",
       "position": {
@@ -778,6 +771,7 @@
       "type": "@/write-byte"
     },
     {
+      "description": "The power switch channel 7 on first Octofet board.",
       "id": "SJWGyERjvL",
       "label": "CH23",
       "position": {
@@ -802,7 +796,7 @@
       "label": "ACK",
       "position": {
         "units": "slots",
-        "x": 29,
+        "x": 30,
         "y": 6
       },
       "type": "xod/patch-nodes/output-pulse"
@@ -814,21 +808,12 @@
       "position": {
         "units": "slots",
         "x": 1,
-        "y": 3.75
+        "y": 0
       },
       "type": "xod/patch-nodes/input-port"
     },
     {
-      "id": "Sk0grwQAiD8",
-      "label": "DEV",
-      "position": {
-        "units": "slots",
-        "x": 17,
-        "y": 4
-      },
-      "type": "xod/patch-nodes/from-bus"
-    },
-    {
+      "description": "The power switch channel 3 on third Octofet board.",
       "id": "Sk3BwmAjvU",
       "label": "CH3",
       "position": {
@@ -848,6 +833,7 @@
       "type": "@/pack-bools-to-byte"
     },
     {
+      "description": "The power switch channel 7 on second Octofet board.",
       "id": "SkbxrwmCsPL",
       "label": "CH15",
       "position": {
@@ -858,6 +844,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
+      "description": "The power switch channel 1 on third Octofet board.",
       "id": "SkvHwmRjPL",
       "label": "CH1",
       "position": {
@@ -878,6 +865,7 @@
       "type": "xod/core/any"
     },
     {
+      "description": "The power switch channel 5 on third Octofet board.",
       "id": "r18HPQRivI",
       "label": "CH5",
       "position": {
@@ -888,6 +876,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
+      "description": "The power switch channel 0 on third Octofet board.",
       "id": "r1NSvmAjw8",
       "label": "CH0",
       "position": {
@@ -898,6 +887,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
+      "description": "The power switch channel 5 on second Octofet board.",
       "id": "r1VlrDXRsPI",
       "label": "CH13",
       "position": {
@@ -908,6 +898,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
+      "description": "The power switch channel 2 on first Octofet board.",
       "id": "r1gGyNCoD8",
       "label": "CH18",
       "position": {
@@ -918,6 +909,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
+      "description": "The power switch channel 7 on third Octofet board.",
       "id": "r1zSvXCoPU",
       "label": "CH7",
       "position": {
@@ -932,7 +924,7 @@
       "position": {
         "units": "slots",
         "x": 0,
-        "y": 5.488095238095238
+        "y": 2
       },
       "type": "@/octofet-device"
     },
@@ -967,8 +959,8 @@
       "id": "rkMZHwXCsD8",
       "position": {
         "units": "slots",
-        "x": 39,
-        "y": 7
+        "x": 40,
+        "y": 8
       },
       "type": "xod/patch-nodes/to-bus"
     },
@@ -979,7 +971,7 @@
       "position": {
         "units": "slots",
         "x": 2,
-        "y": 3.75
+        "y": 0
       },
       "type": "xod/patch-nodes/input-port"
     },
@@ -992,20 +984,10 @@
       "label": "ACT",
       "position": {
         "units": "slots",
-        "x": 45,
-        "y": 3
+        "x": 42,
+        "y": 0
       },
       "type": "xod/patch-nodes/input-boolean"
-    },
-    {
-      "id": "ryWoJS0ovI",
-      "label": "DEV",
-      "position": {
-        "units": "slots",
-        "x": 29,
-        "y": 4
-      },
-      "type": "xod/patch-nodes/from-bus"
     },
     {
       "id": "ryZ-HvmAsP8",
