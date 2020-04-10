@@ -1,5 +1,5 @@
 {
-  "description": "Example of Amperka Octofet board to sets the state off 24 power switches on three Octofet devices connected in a daisy-chain.",
+  "description": "Example to set the state of 24 power switches on three Octofet devices connected in a daisy-chain.",
   "links": [
     {
       "id": "BkY9SAivL",

@@ -169,7 +169,7 @@
   ],
   "nodes": [
     {
-      "description": "The power switch channel 3 on Octofet board.",
+      "description": "Channel #3 on Octofet.",
       "id": "B1ByIckDI",
       "label": "CH3",
       "position": {
@@ -191,7 +191,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
-      "description": "The power switch channel 2 on Octofet board.",
+      "description": "Channel #2 on Octofet.",
       "id": "B1gV1LqJvU",
       "label": "CH2",
       "position": {
@@ -202,7 +202,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
-      "description": "The power switch channel 6 on Octofet board.",
+      "description": "Channel #6 on Octofet.",
       "id": "B1lIJI9kD8",
       "label": "CH6",
       "position": {
@@ -213,7 +213,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
-      "description": "The power switch channel 5 on Octofet board.",
+      "description": "Channel #5 on Octofet.",
       "id": "ByIk8qkwU",
       "label": "CH5",
       "position": {
@@ -244,7 +244,7 @@
       "type": "xod/patch-nodes/jumper"
     },
     {
-      "description": "The power switch channel 7 on Octofet board.",
+      "description": "Channel #7 on Octofet.",
       "id": "HJvyU5kwU",
       "label": "CH7",
       "position": {
@@ -255,7 +255,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
-      "description": "The power switch channel 1 on Octofet board.",
+      "description": "Channel #1 on Octofet.",
       "id": "HyVk891DI",
       "label": "CH1",
       "position": {
@@ -275,7 +275,7 @@
       "type": "@/write-byte"
     },
     {
-      "description": "The power switch channel 0 on Octofet board.",
+      "description": "Channel #0 on Octofet.",
       "id": "Hyx18ckD8",
       "label": "CH0",
       "position": {
@@ -326,7 +326,7 @@
       "type": "xod/patch-nodes/jumper"
     },
     {
-      "description": "The power switch channel 4 on Octofet board.",
+      "description": "Channel #4 on Octofet.",
       "id": "ryxS1Uc1PI",
       "label": "CH4",
       "position": {

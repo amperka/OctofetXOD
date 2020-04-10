@@ -1,5 +1,5 @@
 {
-  "description": "The quick start node that represents the two Octofet boards connected in a daisy-chain, which sets the state (\"on\" or \"off\") of all 16 power switches (a.k.a. «channels»).",
+  "description": "Represents two Octofet boards connected in a daisy-chain.",
   "links": [
     {
       "id": "B1D7NnsvU",
@@ -389,7 +389,7 @@
   ],
   "nodes": [
     {
-      "description": "The power switch channel 5 on second Octofet board.",
+      "description": "Channel #5 on Octofet #2.",
       "id": "B1LFxmhjPL",
       "label": "CH5",
       "position": {
@@ -428,7 +428,7 @@
       "type": "xod/core/any"
     },
     {
-      "description": "The power switch channel 0 on first Octofet board.",
+      "description": "Channel #0 on Octofet #1.",
       "id": "BJm3Xm2jvU",
       "label": "CH8",
       "position": {
@@ -439,7 +439,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
-      "description": "The power switch channel 6 on second Octofet board.",
+      "description": "Channel #6 on Octofet #2.",
       "id": "BJtxmhsPL",
       "label": "CH6",
       "position": {
@@ -450,7 +450,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
-      "description": "The power switch channel 2 on second Octofet board.",
+      "description": "Channel #2 on Octofet #2.",
       "id": "BkgFgQ3ivL",
       "label": "CH2",
       "position": {
@@ -475,7 +475,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
-      "description": "The power switch channel 1 on second Octofet board.",
+      "description": "Channel #1 on Octofet #2.",
       "id": "ByPYlQhoPU",
       "label": "CH1",
       "position": {
@@ -506,7 +506,7 @@
       "type": "@/pack-bools-to-byte"
     },
     {
-      "description": "The power switch channel 2 on first Octofet board.",
+      "description": "Channel #2 on Octofet #1.",
       "id": "H1l2mQhsw8",
       "label": "CH10",
       "position": {
@@ -517,7 +517,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
-      "description": "The power switch channel 6 on first Octofet board.",
+      "description": "Channel #6 on Octofet #1.",
       "id": "H1n773oDI",
       "label": "CH14",
       "position": {
@@ -528,7 +528,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
-      "description": "The power switch channel 3 on second Octofet board.",
+      "description": "Channel #3 on Octofet #2.",
       "id": "Hk3tx73owL",
       "label": "CH3",
       "position": {
@@ -566,7 +566,7 @@
       "type": "xod/patch-nodes/to-bus"
     },
     {
-      "description": "The power switch channel 5 on first Octofet board.",
+      "description": "Channel #5 on Octofet #1.",
       "id": "HyH3X7hoDI",
       "label": "CH13",
       "position": {
@@ -577,7 +577,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
-      "description": "The power switch channel 7 on first Octofet board.",
+      "description": "Channel #7 on Octofet #1.",
       "id": "HyM3QmnoDU",
       "label": "CH15",
       "position": {
@@ -599,7 +599,7 @@
       "type": "xod/patch-nodes/input-port"
     },
     {
-      "description": "The power switch channel 0 on second Octofet board.",
+      "description": "Channel #0 on Octofet #2.",
       "id": "S1VKlQ2sP8",
       "label": "CH0",
       "position": {
@@ -628,7 +628,7 @@
       "type": "@/pack-bools-to-byte"
     },
     {
-      "description": "The power switch channel 7 on second Octofet board.",
+      "description": "Channel #7 on Octofet #2.",
       "id": "SyMFxm2jvU",
       "label": "CH7",
       "position": {
@@ -639,7 +639,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
-      "description": "The power switch channel 3 on first Octofet board.",
+      "description": "Channel #3 on Octofet #1.",
       "id": "r1OhX72jwL",
       "label": "CH11",
       "position": {
@@ -661,7 +661,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
-      "description": "The power switch channel 4 on second Octofet board.",
+      "description": "Channel #4 on Octofet #2.",
       "id": "r1rtl73svI",
       "label": "CH4",
       "position": {
@@ -672,7 +672,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
-      "description": "The power switch channel 1 on first Octofet board.",
+      "description": "Channel #1 on Octofet #1.",
       "id": "rJInXm3sPI",
       "label": "CH9",
       "position": {
@@ -703,7 +703,7 @@
       "type": "xod/patch-nodes/input-port"
     },
     {
-      "description": "The power switch channel 4 on first Octofet board.",
+      "description": "Channel #4 on Octofet #1.",
       "id": "rkE37m3jPU",
       "label": "CH12",
       "position": {

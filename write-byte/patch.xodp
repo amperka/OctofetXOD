@@ -42,7 +42,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
-      "description": "HEX value for all of 8 power switches.",
+      "description": "Values for all of 8 power switches packed into a single byte. MSB first.",
       "id": "SyW2yhovI",
       "label": "DATA",
       "position": {
