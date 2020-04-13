@@ -1,0 +1,205 @@
+{
+  "description": "Example of Amperka Octofet board to sets the state off 8 power switches on single Octofet device.",
+  "links": [
+    {
+      "id": "BJxRWAswL",
+      "input": {
+        "nodeId": "H1xObRjwL",
+        "pinKey": "HJKNIcJDU"
+      },
+      "output": {
+        "nodeId": "BkurqfKDU",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "Byz0-0ov8",
+      "input": {
+        "nodeId": "H1xObRjwL",
+        "pinKey": "BkbYVIcJPU"
+      },
+      "output": {
+        "nodeId": "rkN8qztvI",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "HyUR-0iPI",
+      "input": {
+        "nodeId": "H1xObRjwL",
+        "pinKey": "SJ4tNUc1DL"
+      },
+      "output": {
+        "nodeId": "ry0vlbYwI",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "S1E0ZAovU",
+      "input": {
+        "nodeId": "H1xObRjwL",
+        "pinKey": "Hk7KVL5JDL"
+      },
+      "output": {
+        "nodeId": "ByYI9zKDI",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "SkD0WCjwI",
+      "input": {
+        "nodeId": "H1xObRjwL",
+        "pinKey": "B1HYNU5kPU"
+      },
+      "output": {
+        "nodeId": "r1jU5fKDI",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "Skm0ZCjwL",
+      "input": {
+        "nodeId": "H1xObRjwL",
+        "pinKey": "ryGK4851PI"
+      },
+      "output": {
+        "nodeId": "ByL89MKvU",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "r1WCWRowL",
+      "input": {
+        "nodeId": "H1xObRjwL",
+        "pinKey": "SJxF4U9yDU"
+      },
+      "output": {
+        "nodeId": "r1DDl-tvU",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "rJdAWCjDL",
+      "input": {
+        "nodeId": "H1xObRjwL",
+        "pinKey": "ByLYNLqkvL"
+      },
+      "output": {
+        "nodeId": "By7d5GYwU",
+        "pinKey": "Sk1e_NIVE"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "Sk1e_NIVE": "False"
+      },
+      "id": "BkurqfKDU",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -4
+      },
+      "type": "xod/debug/tweak-boolean"
+    },
+    {
+      "boundLiterals": {
+        "Sk1e_NIVE": "False"
+      },
+      "id": "By7d5GYwU",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": -4
+      },
+      "type": "xod/debug/tweak-boolean"
+    },
+    {
+      "boundLiterals": {
+        "Sk1e_NIVE": "False"
+      },
+      "id": "ByL89MKvU",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": -4
+      },
+      "type": "xod/debug/tweak-boolean"
+    },
+    {
+      "boundLiterals": {
+        "Sk1e_NIVE": "False"
+      },
+      "id": "ByYI9zKDI",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": -4
+      },
+      "type": "xod/debug/tweak-boolean"
+    },
+    {
+      "boundLiterals": {
+        "SkZtiB5kD8": "D13",
+        "SklForqyD8": "D11",
+        "SktiBckvL": "D10"
+      },
+      "id": "H1xObRjwL",
+      "position": {
+        "units": "slots",
+        "x": -3,
+        "y": -3
+      },
+      "type": "@/octofet"
+    },
+    {
+      "boundLiterals": {
+        "Sk1e_NIVE": "False"
+      },
+      "id": "r1DDl-tvU",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": -4
+      },
+      "type": "xod/debug/tweak-boolean"
+    },
+    {
+      "boundLiterals": {
+        "Sk1e_NIVE": "False"
+      },
+      "id": "r1jU5fKDI",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": -4
+      },
+      "type": "xod/debug/tweak-boolean"
+    },
+    {
+      "boundLiterals": {
+        "Sk1e_NIVE": "False"
+      },
+      "id": "rkN8qztvI",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": -4
+      },
+      "type": "xod/debug/tweak-boolean"
+    },
+    {
+      "boundLiterals": {
+        "Sk1e_NIVE": "False"
+      },
+      "id": "ry0vlbYwI",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": -4
+      },
+      "type": "xod/debug/tweak-boolean"
+    }
+  ]
+}

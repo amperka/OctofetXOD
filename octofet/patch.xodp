@@ -1,0 +1,376 @@
+{
+  "description": "The quick start node that represents the Octofet board, \nwhich sets the state (\"on\" or \"off\") of all 8 power switches (a.k.a. «channels»).",
+  "links": [
+    {
+      "id": "B1IabniwL",
+      "input": {
+        "nodeId": "Bkvi-2iDI",
+        "pinKey": "S1YxdUovU"
+      },
+      "output": {
+        "nodeId": "B1HYNU5kPU",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "B1J2Hqkw8",
+      "input": {
+        "nodeId": "H1piSq1wL",
+        "pinKey": "HyCSE9kDU"
+      },
+      "output": {
+        "nodeId": "SklForqyD8",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "B1shWnovL",
+      "input": {
+        "nodeId": "Bkvi-2iDI",
+        "pinKey": "Sy3l_8iPU"
+      },
+      "output": {
+        "nodeId": "SJxF4U9yDU",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HJsyznswL",
+      "input": {
+        "nodeId": "r1ZkM2jvI",
+        "pinKey": "SyW2yhovI"
+      },
+      "output": {
+        "nodeId": "Bkvi-2iDI",
+        "pinKey": "HklS_IoP8"
+      }
+    },
+    {
+      "id": "HkLgMhjwL",
+      "input": {
+        "nodeId": "r1ZkM2jvI",
+        "pinKey": "HJN0K13jPU"
+      },
+      "output": {
+        "nodeId": "H1piSq1wL",
+        "pinKey": "HkwwE5JwU"
+      }
+    },
+    {
+      "id": "HkXTbnjwL",
+      "input": {
+        "nodeId": "Bkvi-2iDI",
+        "pinKey": "r1gbOIiwL"
+      },
+      "output": {
+        "nodeId": "SJ4tNUc1DL",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Hy4Nfniw8",
+      "input": {
+        "nodeId": "ryFmfhivI",
+        "pinKey": "BytC28DfH"
+      },
+      "output": {
+        "nodeId": "Bkvi-2iDI",
+        "pinKey": "HklS_IoP8"
+      }
+    },
+    {
+      "id": "S1I4M3ovI",
+      "input": {
+        "nodeId": "r1ZkM2jvI",
+        "pinKey": "rkK0t1hjvU"
+      },
+      "output": {
+        "nodeId": "ryFmfhivI",
+        "pinKey": "H1fx68wzB"
+      }
+    },
+    {
+      "id": "SJbTbhjw8",
+      "input": {
+        "nodeId": "Bkvi-2iDI",
+        "pinKey": "H1yb_Liw8"
+      },
+      "output": {
+        "nodeId": "Hk7KVL5JDL",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SkYn-hsvI",
+      "input": {
+        "nodeId": "Bkvi-2iDI",
+        "pinKey": "BkUG_UjPL"
+      },
+      "output": {
+        "nodeId": "HJKNIcJDU",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Sy9gMhoDU",
+      "input": {
+        "nodeId": "BkutN85kPL",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "r1ZkM2jvI",
+        "pinKey": "BJeAFkniwU"
+      }
+    },
+    {
+      "id": "SyCsS5Jw8",
+      "input": {
+        "nodeId": "H1piSq1wL",
+        "pinKey": "Bk3HE9ywL"
+      },
+      "output": {
+        "nodeId": "SktiBckvL",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "r11EMniPL",
+      "input": {
+        "nodeId": "ryFmfhivI",
+        "pinKey": "H13R3IvGB"
+      },
+      "output": {
+        "nodeId": "ry-PcXIsv8",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "r1J6ZhoDL",
+      "input": {
+        "nodeId": "Bkvi-2iDI",
+        "pinKey": "B1Cg_Ujw8"
+      },
+      "output": {
+        "nodeId": "ryGK4851PI",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "rJF6W3jwL",
+      "input": {
+        "nodeId": "Bkvi-2iDI",
+        "pinKey": "S1glZO8jPI"
+      },
+      "output": {
+        "nodeId": "ByLYNLqkvL",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "rke3H9yPL",
+      "input": {
+        "nodeId": "H1piSq1wL",
+        "pinKey": "B1g0H4qkPI"
+      },
+      "output": {
+        "nodeId": "SkZtiB5kD8",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "ryphb3svI",
+      "input": {
+        "nodeId": "Bkvi-2iDI",
+        "pinKey": "r1agdUsP8"
+      },
+      "output": {
+        "nodeId": "BkbYVIcJPU",
+        "pinKey": "__out__"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "description": "Channel #6 on Octofet.",
+      "id": "B1HYNU5kPU",
+      "label": "CH6",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": -4
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "description": "Channel #2 on Octofet.",
+      "id": "BkbYVIcJPU",
+      "label": "CH2",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": -4
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "description": "Fires on writing complete.\n",
+      "id": "BkutN85kPL",
+      "label": "ACK",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "Bkvi-2iDI",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": -2
+      },
+      "type": "@/pack-bools-to-byte"
+    },
+    {
+      "description": "Channel #7 on Octofet.",
+      "id": "ByLYNLqkvL",
+      "label": "CH7",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": -4
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "H1piSq1wL",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "@/octofet-device"
+    },
+    {
+      "description": "Channel #0 on Octofet.",
+      "id": "HJKNIcJDU",
+      "label": "CH0",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": -4
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "description": "Channel #4 on Octofet.",
+      "id": "Hk7KVL5JDL",
+      "label": "CH4",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": -4
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "description": "Channel #5 on Octofet.",
+      "id": "SJ4tNUc1DL",
+      "label": "CH5",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": -4
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "description": "Channel #1 on Octofet.",
+      "id": "SJxF4U9yDU",
+      "label": "CH1",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": -4
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "description": "The clock pin used to clock pulses which synchronize data transmission generated by the master. It is marked П on the Octofet board. Use any GPIO pin of the controller.",
+      "id": "SkZtiB5kD8",
+      "label": "SCK",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": -2
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "description": "The MOSI (Master Out Slave In) pin used to send data to the peripherals. It is marked DI on the Octofet board. Use any GPIO pin of the controller.",
+      "id": "SklForqyD8",
+      "label": "MOSI",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": -2
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "description": "The chip select (also known as slave select) pin used to control the shift-register latch. It is marked CS on the Octofet board. Use any GPIO pin of the controller.",
+      "id": "SktiBckvL",
+      "label": "CS",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": -2
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "id": "r1ZkM2jvI",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 1
+      },
+      "type": "@/write-byte"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "True"
+      },
+      "description": "Makes the octofet react to incoming values while `ACT` is true",
+      "id": "ry-PcXIsv8",
+      "label": "ACT",
+      "position": {
+        "units": "slots",
+        "x": 15,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "ryFmfhivI",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 1
+      },
+      "type": "xod/core/act"
+    },
+    {
+      "description": "Channel #3 on Octofet.",
+      "id": "ryGK4851PI",
+      "label": "CH3",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": -4
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    }
+  ]
+}
