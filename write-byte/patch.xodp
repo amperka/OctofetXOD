@@ -5,7 +5,7 @@
       "id": "BJ101nsvI",
       "position": {
         "units": "slots",
-        "x": 7,
+        "x": 2,
         "y": 0
       },
       "type": "xod/patch-nodes/utility"
@@ -16,7 +16,7 @@
       "label": "DONE",
       "position": {
         "units": "slots",
-        "x": 5,
+        "x": 1,
         "y": 1
       },
       "type": "xod/patch-nodes/output-pulse"
@@ -36,7 +36,7 @@
       "id": "S1_CFknjwL",
       "position": {
         "units": "slots",
-        "x": 2,
+        "x": 0,
         "y": 0
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"
@@ -47,7 +47,7 @@
       "label": "DATA",
       "position": {
         "units": "slots",
-        "x": 5,
+        "x": 1,
         "y": -1
       },
       "type": "xod/patch-nodes/input-byte"
@@ -58,7 +58,7 @@
       "label": "DO",
       "position": {
         "units": "slots",
-        "x": 10,
+        "x": 2,
         "y": -1
       },
       "type": "xod/patch-nodes/input-pulse"

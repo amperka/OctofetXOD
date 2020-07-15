@@ -10,11 +10,12 @@ void evaluate(Context ctx) {
         emitValue<output_DEVU0027>(ctx, dev);
     }
 
-    if (!isInputDirty<input_DO>(ctx))
+    if (!isInputDirty<input_UPD>(ctx))
         return;
 
-    uint8_t data = getValue<input_DATA>(ctx);
-    shiftOut(dev->pinMOSI, dev->pinSCK, MSBFIRST, data);
+    const bool val = getValue<input_SIG>(ctx);
+
+    ::digitalWrite(dev->pinCS, val);
 
     emitValue<output_DONE>(ctx, 1);
 }

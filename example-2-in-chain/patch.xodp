@@ -187,7 +187,7 @@
       "position": {
         "units": "slots",
         "x": 14,
-        "y": -0.25
+        "y": 0
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -199,7 +199,7 @@
       "position": {
         "units": "slots",
         "x": 18,
-        "y": -0.25
+        "y": 0
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -211,7 +211,7 @@
       "position": {
         "units": "slots",
         "x": 11,
-        "y": -0.25
+        "y": 0
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -223,7 +223,7 @@
       "position": {
         "units": "slots",
         "x": 15,
-        "y": -0.25
+        "y": 0
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -235,7 +235,7 @@
       "position": {
         "units": "slots",
         "x": 6,
-        "y": -0.25
+        "y": 0
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -247,7 +247,7 @@
       "position": {
         "units": "slots",
         "x": 8,
-        "y": -0.25
+        "y": 0
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -261,7 +261,7 @@
       "position": {
         "units": "slots",
         "x": 0,
-        "y": 0.75
+        "y": 1
       },
       "type": "@/octofet-16"
     },
@@ -273,7 +273,7 @@
       "position": {
         "units": "slots",
         "x": 12,
-        "y": -0.25
+        "y": 0
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -285,7 +285,7 @@
       "position": {
         "units": "slots",
         "x": 17,
-        "y": -0.25
+        "y": 0
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -297,7 +297,7 @@
       "position": {
         "units": "slots",
         "x": 16,
-        "y": -0.25
+        "y": 0
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -309,7 +309,7 @@
       "position": {
         "units": "slots",
         "x": 10,
-        "y": -0.25
+        "y": 0
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -321,7 +321,7 @@
       "position": {
         "units": "slots",
         "x": 3,
-        "y": -0.25
+        "y": 0
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -333,7 +333,7 @@
       "position": {
         "units": "slots",
         "x": 4,
-        "y": -0.25
+        "y": 0
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -345,7 +345,7 @@
       "position": {
         "units": "slots",
         "x": 9,
-        "y": -0.25
+        "y": 0
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -357,7 +357,7 @@
       "position": {
         "units": "slots",
         "x": 7,
-        "y": -0.25
+        "y": 0
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -369,7 +369,7 @@
       "position": {
         "units": "slots",
         "x": 5,
-        "y": -0.25
+        "y": 0
       },
       "type": "xod/debug/tweak-boolean"
     },
@@ -381,7 +381,7 @@
       "position": {
         "units": "slots",
         "x": 13,
-        "y": -0.25
+        "y": 0
       },
       "type": "xod/debug/tweak-boolean"
     }
