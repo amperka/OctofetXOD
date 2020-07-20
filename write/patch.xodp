@@ -2,17 +2,6 @@
   "description": "Sets the state (\"on\" or \"off\") of 8 power switches on Octofet board.",
   "links": [
     {
-      "id": "BJAng2sPU",
-      "input": {
-        "nodeId": "B1T-IcyvU",
-        "pinKey": "__in__"
-      },
-      "output": {
-        "nodeId": "HyoFlnswL",
-        "pinKey": "BJeAFkniwU"
-      }
-    },
-    {
       "id": "BJwil3oDL",
       "input": {
         "nodeId": "Skr5g2ivI",
@@ -21,6 +10,17 @@
       "output": {
         "nodeId": "ryxS1Uc1PI",
         "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "BkBA98hkD",
+      "input": {
+        "nodeId": "r16acI2kv",
+        "pinKey": "rkrkq821v"
+      },
+      "output": {
+        "nodeId": "HyoFlnswL",
+        "pinKey": "BJeAFkniwU"
       }
     },
     {
@@ -35,28 +35,6 @@
       }
     },
     {
-      "id": "HyDIb3jwL",
-      "input": {
-        "nodeId": "HyoFlnswL",
-        "pinKey": "HJN0K13jPU"
-      },
-      "output": {
-        "nodeId": "ryPr-njw8",
-        "pinKey": "__out__"
-      }
-    },
-    {
-      "id": "S1S3T6nPU",
-      "input": {
-        "nodeId": "S1ldpT3DL",
-        "pinKey": "__in__"
-      },
-      "output": {
-        "nodeId": "HyoFlnswL",
-        "pinKey": "rkoYaT3P8"
-      }
-    },
-    {
       "id": "SJNixnjPI",
       "input": {
         "nodeId": "Skr5g2ivI",
@@ -65,6 +43,39 @@
       "output": {
         "nodeId": "B1gV1LqJvU",
         "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Sk4CcUhJP",
+      "input": {
+        "nodeId": "B1T-IcyvU",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "r16acI2kv",
+        "pinKey": "ByXryqU2JD"
+      }
+    },
+    {
+      "id": "Sk7A5I3kw",
+      "input": {
+        "nodeId": "S1ldpT3DL",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "r16acI2kv",
+        "pinKey": "H1ouY83Jw"
+      }
+    },
+    {
+      "id": "SkPacU2yw",
+      "input": {
+        "nodeId": "HyoFlnswL",
+        "pinKey": "HJN0K13jPU"
+      },
+      "output": {
+        "nodeId": "rk4pcL2yP",
+        "pinKey": "H1ouY83Jw"
       }
     },
     {
@@ -79,6 +90,17 @@
       }
     },
     {
+      "id": "SkZ0cLhkv",
+      "input": {
+        "nodeId": "r16acI2kv",
+        "pinKey": "H1tOYU2kP"
+      },
+      "output": {
+        "nodeId": "HyoFlnswL",
+        "pinKey": "rkoYaT3P8"
+      }
+    },
+    {
       "id": "SyfoxhoPU",
       "input": {
         "nodeId": "Skr5g2ivI",
@@ -87,6 +109,17 @@
       "output": {
         "nodeId": "HyVk891DI",
         "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SyjTqInyP",
+      "input": {
+        "nodeId": "HyoFlnswL",
+        "pinKey": "rkK0t1hjvU"
+      },
+      "output": {
+        "nodeId": "rk4pcL2yP",
+        "pinKey": "ByXryqU2JD"
       }
     },
     {
@@ -134,6 +167,17 @@
       }
     },
     {
+      "id": "rkcRcI31v",
+      "input": {
+        "nodeId": "rk4pcL2yP",
+        "pinKey": "rkrkq821v"
+      },
+      "output": {
+        "nodeId": "HJLyZ3oPI",
+        "pinKey": "__out__"
+      }
+    },
+    {
       "id": "rkpsxhiDU",
       "input": {
         "nodeId": "Skr5g2ivI",
@@ -145,13 +189,13 @@
       }
     },
     {
-      "id": "ry67ZniD8",
+      "id": "ryLa5In1v",
       "input": {
-        "nodeId": "HyoFlnswL",
-        "pinKey": "rkK0t1hjvU"
+        "nodeId": "rk4pcL2yP",
+        "pinKey": "H1tOYU2kP"
       },
       "output": {
-        "nodeId": "HJLyZ3oPI",
+        "nodeId": "ryPr-njw8",
         "pinKey": "__out__"
       }
     },
@@ -185,7 +229,7 @@
       "label": "DONE",
       "position": {
         "units": "slots",
-        "x": 6,
+        "x": 10,
         "y": 6
       },
       "type": "xod/patch-nodes/output-pulse"
@@ -238,7 +282,7 @@
       "id": "HJLyZ3oPI",
       "position": {
         "units": "slots",
-        "x": 13,
+        "x": 12,
         "y": 2
       },
       "type": "xod/patch-nodes/jumper"
@@ -291,7 +335,7 @@
       "label": "DEV'",
       "position": {
         "units": "slots",
-        "x": 3,
+        "x": 9,
         "y": 6
       },
       "type": "@/output-octofet-device"
@@ -306,15 +350,36 @@
       "type": "@/pack-bools-to-byte"
     },
     {
+      "boundLiterals": {
+        "BkxHk5I2kw": "True"
+      },
+      "id": "r16acI2kv",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 4
+      },
+      "type": "@/cs-pin-write"
+    },
+    {
       "description": "Triggers a new write.",
       "id": "rJkW89kD8",
       "label": "DO",
       "position": {
         "units": "slots",
-        "x": 13,
+        "x": 12,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "rk4pcL2yP",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 4
+      },
+      "type": "@/cs-pin-write"
     },
     {
       "id": "ryPr-njw8",

@@ -3,5 +3,5 @@
   "description": "XOD library to interface with the Amperka Octofet 8-channel power switches.",
   "license": "AGPL-3",
   "name": "octofet",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

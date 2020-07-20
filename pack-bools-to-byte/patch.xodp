@@ -32,7 +32,7 @@
       "id": "HklS_IoP8",
       "position": {
         "units": "slots",
-        "x": 3,
+        "x": 0,
         "y": 3
       },
       "type": "xod/patch-nodes/output-byte"
@@ -59,7 +59,7 @@
       "id": "SJZQJ3jwI",
       "position": {
         "units": "slots",
-        "x": 8,
+        "x": 7,
         "y": 2
       },
       "type": "xod/patch-nodes/utility"
@@ -95,7 +95,7 @@
       "id": "ryH8OUiP8",
       "position": {
         "units": "slots",
-        "x": 1,
+        "x": 0,
         "y": 2
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"

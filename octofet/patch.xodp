@@ -2,6 +2,17 @@
   "description": "The quick start node that represents the Octofet board, \nwhich sets the state (\"on\" or \"off\") of all 8 power switches (a.k.a. «channels»).",
   "links": [
     {
+      "id": "B17Pi8nJD",
+      "input": {
+        "nodeId": "r1ZkM2jvI",
+        "pinKey": "rkK0t1hjvU"
+      },
+      "output": {
+        "nodeId": "B1rLs8nkD",
+        "pinKey": "ByXryqU2JD"
+      }
+    },
+    {
       "id": "B1IabniwL",
       "input": {
         "nodeId": "Bkvi-2iDI",
@@ -24,6 +35,28 @@
       }
     },
     {
+      "id": "B1MvjU3yP",
+      "input": {
+        "nodeId": "B1rLs8nkD",
+        "pinKey": "rkrkq821v"
+      },
+      "output": {
+        "nodeId": "ryFmfhivI",
+        "pinKey": "H1fx68wzB"
+      }
+    },
+    {
+      "id": "B1TUiUhyD",
+      "input": {
+        "nodeId": "B1rLs8nkD",
+        "pinKey": "H1tOYU2kP"
+      },
+      "output": {
+        "nodeId": "H1piSq1wL",
+        "pinKey": "HkwwE5JwU"
+      }
+    },
+    {
       "id": "B1shWnovL",
       "input": {
         "nodeId": "Bkvi-2iDI",
@@ -35,6 +68,39 @@
       }
     },
     {
+      "id": "ByUvsIh1P",
+      "input": {
+        "nodeId": "BkutN85kPL",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "Bkd8iInkD",
+        "pinKey": "ByXryqU2JD"
+      }
+    },
+    {
+      "id": "HJVPsI21D",
+      "input": {
+        "nodeId": "Bkd8iInkD",
+        "pinKey": "rkrkq821v"
+      },
+      "output": {
+        "nodeId": "r1ZkM2jvI",
+        "pinKey": "BJeAFkniwU"
+      }
+    },
+    {
+      "id": "HJiIs83kD",
+      "input": {
+        "nodeId": "Bkd8iInkD",
+        "pinKey": "H1tOYU2kP"
+      },
+      "output": {
+        "nodeId": "r1ZkM2jvI",
+        "pinKey": "rkoYaT3P8"
+      }
+    },
+    {
       "id": "HJsyznswL",
       "input": {
         "nodeId": "r1ZkM2jvI",
@@ -43,17 +109,6 @@
       "output": {
         "nodeId": "Bkvi-2iDI",
         "pinKey": "HklS_IoP8"
-      }
-    },
-    {
-      "id": "HkLgMhjwL",
-      "input": {
-        "nodeId": "r1ZkM2jvI",
-        "pinKey": "HJN0K13jPU"
-      },
-      "output": {
-        "nodeId": "H1piSq1wL",
-        "pinKey": "HkwwE5JwU"
       }
     },
     {
@@ -79,17 +134,6 @@
       }
     },
     {
-      "id": "S1I4M3ovI",
-      "input": {
-        "nodeId": "r1ZkM2jvI",
-        "pinKey": "rkK0t1hjvU"
-      },
-      "output": {
-        "nodeId": "ryFmfhivI",
-        "pinKey": "H1fx68wzB"
-      }
-    },
-    {
       "id": "SJbTbhjw8",
       "input": {
         "nodeId": "Bkvi-2iDI",
@@ -112,17 +156,6 @@
       }
     },
     {
-      "id": "Sy9gMhoDU",
-      "input": {
-        "nodeId": "BkutN85kPL",
-        "pinKey": "__in__"
-      },
-      "output": {
-        "nodeId": "r1ZkM2jvI",
-        "pinKey": "BJeAFkniwU"
-      }
-    },
-    {
       "id": "SyCsS5Jw8",
       "input": {
         "nodeId": "H1piSq1wL",
@@ -142,6 +175,17 @@
       "output": {
         "nodeId": "ry-PcXIsv8",
         "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "r19Uo8hkv",
+      "input": {
+        "nodeId": "r1ZkM2jvI",
+        "pinKey": "HJN0K13jPU"
+      },
+      "output": {
+        "nodeId": "B1rLs8nkD",
+        "pinKey": "H1ouY83Jw"
       }
     },
     {
@@ -202,6 +246,15 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
+      "id": "B1rLs8nkD",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "@/cs-pin-write"
+    },
+    {
       "description": "Channel #2 on Octofet.",
       "id": "BkbYVIcJPU",
       "label": "CH2",
@@ -213,12 +266,24 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
+      "boundLiterals": {
+        "BkxHk5I2kw": "True"
+      },
+      "id": "Bkd8iInkD",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 1
+      },
+      "type": "@/cs-pin-write"
+    },
+    {
       "description": "Fires on writing complete.\n",
       "id": "BkutN85kPL",
       "label": "ACK",
       "position": {
         "units": "slots",
-        "x": 6,
+        "x": 12,
         "y": 3
       },
       "type": "xod/patch-nodes/output-pulse"
@@ -247,8 +312,8 @@
       "id": "H1piSq1wL",
       "position": {
         "units": "slots",
-        "x": 1,
-        "y": 0
+        "x": 3,
+        "y": -2
       },
       "type": "@/octofet-device"
     },
@@ -302,8 +367,8 @@
       "label": "SCK",
       "position": {
         "units": "slots",
-        "x": 3,
-        "y": -2
+        "x": 5,
+        "y": -4
       },
       "type": "xod/patch-nodes/input-port"
     },
@@ -313,8 +378,8 @@
       "label": "MOSI",
       "position": {
         "units": "slots",
-        "x": 2,
-        "y": -2
+        "x": 4,
+        "y": -4
       },
       "type": "xod/patch-nodes/input-port"
     },
@@ -324,8 +389,8 @@
       "label": "CS",
       "position": {
         "units": "slots",
-        "x": 1,
-        "y": -2
+        "x": 3,
+        "y": -4
       },
       "type": "xod/patch-nodes/input-port"
     },
@@ -333,7 +398,7 @@
       "id": "r1ZkM2jvI",
       "position": {
         "units": "slots",
-        "x": 6,
+        "x": 7,
         "y": 1
       },
       "type": "@/write-byte"
@@ -347,8 +412,8 @@
       "label": "ACT",
       "position": {
         "units": "slots",
-        "x": 15,
-        "y": -1
+        "x": 16,
+        "y": -4
       },
       "type": "xod/patch-nodes/input-boolean"
     },
@@ -356,8 +421,8 @@
       "id": "ryFmfhivI",
       "position": {
         "units": "slots",
-        "x": 14,
-        "y": 1
+        "x": 15,
+        "y": -1
       },
       "type": "xod/core/act"
     },
